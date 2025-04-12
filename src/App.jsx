@@ -27,11 +27,11 @@ function App() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-white font-bold text-xl">
-              CG
+              GC
             </div>
             <h1 className="text-xl font-bold">
-              <span className="text-primary">Code</span>
-              <span className="text-secondary">Greet</span>
+              <span className="text-primary">Greet</span>
+              <span className="text-secondary">-Code</span>
             </h1>
           </div>
           
@@ -55,7 +55,7 @@ function App() {
       
       <footer className="bg-white dark:bg-surface-900 border-t border-surface-200 dark:border-surface-800 py-6">
         <div className="container mx-auto px-4 text-center text-surface-500">
-          <p>© {new Date().getFullYear()} CodeGreet. Start your coding journey today.</p>
+          <p>© {new Date().getFullYear()} Greet-Code. Start your coding journey today.</p>
         </div>
       </footer>
     </div>
